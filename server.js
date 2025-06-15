@@ -20,8 +20,9 @@ const SeeOther = 303;
 const Ok = 200;
 const server = createServer((req, res) => {
   res.writeHead(Ok, {
-    "Content-Type": "image/png",
-    // Location: "https://www.google.com",
+    "Content-Type": "image",
+    //     Location:
+    //       "https://static.wikia.nocookie.net/leagueoflegends/images/7/7b/League_of_Legends_Cover.jpg/revision/latest/scale-to-width-down/1200?cb=20191018222445",
   });
   res.end(img);
 });
